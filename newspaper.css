@@ -1,0 +1,587 @@
+@font-face {
+  font-family: canopee;
+  src: url(canopee.ttf);
+}
+@font-face {
+  font-family:dhruv;
+  src: url(domain.ttf);
+}
+
+.header-flex{
+display: flex;
+position: relative;
+justify-content: space-between;
+text-align: center;
+top: 30px;
+}
+.left-header{
+  padding-left: 20px;
+}
+.main-topic{
+  width: 130px;
+}
+.menu-header{
+width: 30px;
+}
+.horizontal-scroll-bar{
+  display: flex;
+  align-items: center;
+  overflow-x:scroll;
+  padding: 0px 0px 20px 0px;
+  height: 400px;
+  vertical-align: center;
+  border-top-style:solid ;
+  border-width: 1px;
+  border-color: rgba(29,29,27,.5);
+  margin-top: 50px;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.horizontal-scroll-bar::-webkit-scrollbar{
+width:0;
+}
+
+.main-photo1{
+  width: 425px;
+}
+.title1{
+  width: 120px;
+}
+.box1{
+  padding: 40px;
+}
+.description1{
+  width: 400px;
+  font-family: dhruv,sans-serif;
+  color:  rgb(62, 62, 62);
+  font-weight: 100;
+  font-size: 20px;
+}
+.main-photo2{
+  width: 425px;
+}
+.title2{
+  width: 100px;
+}
+.description2{
+  font-family: dhruv,sans-serif;
+  color:  rgb(62, 62, 62);
+  font-weight: 100;
+  font-size: 20px;
+}
+.box2{
+  padding:0px 40px 20px 40px;
+}
+.main-photo3{
+  width: 425px;
+}
+.title3{
+  width: 70px;
+}
+.box3{
+  padding: 40px;
+}
+.description3{
+  width: 400px;
+  font-family: dhruv,sans-serif;
+  color:  rgb(62, 62, 62);
+  font-weight: 100;
+  font-size: 20px;
+}
+.center{
+  padding:0px 60px 0px 60px;
+  width:400px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: rgba(29,29,27,.5);
+  text-align: center;
+  margin-top: 29px;
+}
+.main-heading{
+  font-family: canopee,sans-serif;
+  font-size: 70px;
+  width: 200px;
+  align-items: center;
+  display: flex;
+  letter-spacing: -3px;
+  padding-left: 88px;
+}
+.all{
+  padding-right: 10px;
+}
+.o{
+  font-family: dhruv;
+}
+.description{
+  font-family:dhruv,sans-serif;
+  width: 400px;
+  font-size: 43px;
+  font-weight: 300;
+  color:  rgb(29, 29, 27);
+}
+.main-bottom{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  
+  margin-top: 40px;
+}
+.tip{
+  font-family: canopee;
+  padding-right: 4px;
+  letter-spacing: -1px;
+  
+}
+.guide{
+  font-family: dhruv,sans-serif;
+  color:  rgb(62, 62, 62);
+  font-weight: 100;
+}
+.main-photo4{
+  width: 425px;
+}
+.title4{
+  width: 130px;
+}
+.box4{
+  padding: 40px;
+}
+.description4{
+  width: 400px;
+  font-family: dhruv,sans-serif;
+  color:  rgb(62, 62, 62);
+  font-weight: 100;
+  font-size: 20px;
+}
+.main-photo5{
+  width: 425px;
+}
+.title5{
+  width: 150px;
+}
+.box5{
+  padding: 40px;
+}
+.description5{
+  width: 400px;
+  font-family: dhruv,sans-serif;
+  color:  rgb(62, 62, 62);
+  font-weight: 100;
+  font-size: 20px;
+}
+.main-photo6{
+  width: 425px;
+}
+.title6{
+  width: 70px;
+}
+.box6{
+  padding: 0px 40px 20px 40px;
+}
+.description6{
+  width: 350px;
+  font-family: dhruv,sans-serif;
+  color:  rgb(62, 62, 62);
+  font-weight: 100;
+  font-size: 20px;
+}
+.kuch3{
+ display:flex;
+}
+.kuch4{
+  display: flex;
+}
+.kuch5{
+  display: flex;
+}
+.new{
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  color: rgb(217, 201, 201);
+  background-color: rgb(169, 42, 42);
+  align-items: center;
+  font-family: canopee;
+}
+.black{
+  background-color: rgb(29,29,27);
+  height: 500px;
+  position:  absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr;
+}
+.newspaper-name{
+  font-size: 550px;
+  font-family: canopee,sans-serif;
+  letter-spacing:-22px;
+  color:rgb(205, 198, 190);
+  margin: 0px 20px 0px 20px;
+  position:relative;
+  top:-30px;
+  padding-right: 50px;
+}
+.miranda-ke-left-wala{
+  padding-right: 50px;
+}
+.miranda-ke-neeche-flex{
+  display: flex;
+  padding-bottom: 50px;
+}
+.interactive{
+  font-size: 110px;
+  width: 40px;
+  font-weight: bold;
+  font-family: canopee;
+  margin: 0;
+  padding:0;
+  display: relative;
+  bottom: 0;
+}
+.artist{
+  font-size: 210px;
+  width: 40px;
+  font-family: canopee;
+  margin-top: -30px;
+  padding:0;
+  letter-spacing: -10px;
+  display: relative;
+  top: 0px;
+}
+.side-face-image{
+  width: 480px;
+  height: 520px;
+  border: solid;
+  border-width: 1px;
+}
+.hobby-description{
+  margin-left: 5px;
+  margin-top: 60px;
+  display: flex;
+  }
+.start-a{
+   font-size: 120px;
+  font-family:"canopee";
+  font-feature-settings: "ss03";
+  color:rgb(205, 198, 190);
+  background-color: black;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  vertical-align: center;
+}
+.baki-hobby{
+  display: inline;
+  font-family: "dhruv";
+  font-weight: 100;
+  color: rgb(61, 58, 58);
+  font-size: 38px;
+  line-height: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.line1{
+  display: inline;
+  
+}
+.hobby-description1{
+  display: inline;
+  font-family: "dhruv";
+  font-weight: 100;
+  color: rgb(61, 58, 58);
+  font-size: 40px;
+  margin-top: -20px;
+  line-height: 4px;
+  position: relative;
+  top: -25px;
+}
+.miranda-ke-right-wala{
+ padding-left: 50px;
+ border-left-style: solid;
+ border-width: 1px;
+ border-color: rgba(29,29,27,.5);
+}
+
+.main-face-image{
+  width: 900px;
+}
+.main-face-image-ke-neechewala{
+ font-family: "canopee";
+ font-size: 120px;
+ font-weight: 500;
+ letter-spacing: -7px;
+}
+.g{
+  display: inline;
+  font-family: dhruv;
+}
+.website-title-flex{
+  display: flex;
+  text-align: center;
+}
+.website-title{
+  font-size: 450px;
+  font-family: canopee,sans-serif;
+  letter-spacing:-22px;
+  color:rgb(205, 198, 190);
+  background-color: black;
+  display: inline-block;
+  padding-right: 40px;
+  padding-left: 20px;
+  
+  border: 0;
+
+}
+.stamp-image{
+  width: 360px;
+  padding-left: 20px;
+  padding-top:15px;
+}
+
+
+.upcoming-time-block{
+ 
+}
+.upcoming-time-title{
+  color:black;
+  font-family: "canopee";
+  font-size: 70px;
+  letter-spacing: -3px;
+}
+.upcoming-time-content{
+  color:black;
+  font-family: dhruv;
+  font-size: 45px;
+  width: 400px;
+  font-weight: lighter;
+  line-height: 40px;
+  padding-top: 5px;
+}
+.tip-flex{
+  display: flex;
+  padding-top:40px;
+  font-size: 20px;
+}
+.website-title-ke-neeche{
+  display: flex;
+}
+.Unexpected-container{
+  padding-left: 50px;
+  border-left-style: solid;
+ border-width: 1px;
+ border-color: rgba(29,29,27,.5);
+}
+.kisiki-image{
+  width: 425px;
+}
+.Unexpected-time-title{
+  font-family: "canopee";
+  font-size: 35px;
+  letter-spacing: -2px;
+}
+.Unexpected-time-content{
+  font-family: dhruv;
+  width: 400px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.brain-wali-image{
+  width: 900px;
+  padding-top: 50px;
+}
+.left-aur-middle{
+  padding-right: 50px;
+  border-right-style: solid;
+ border-width: 1px;
+ border-color: rgba(29,29,27,.5);
+}
+.right-wali-side{
+  padding-left: 50px;
+}
+.motivate-holo-guys{
+  font-family: "canopee";
+  font-size: 120px;
+  letter-spacing: -7px;
+}
+.motivate-holo-guys2{
+  font-family: "canopee";
+  font-size: 200px;
+  letter-spacing: -10px;
+  margin-top: -45px;
+}
+.beech-ka-poora{
+  display: flex;
+  padding-top: 100px;
+}
+
+.motivationwala-content{
+  display: inline;
+  font-family: "dhruv";
+  font-size: 40px;
+  border-color: rgba(29,29,27,.5);
+  padding-left: 15px;
+}
+.motivate-phirse{
+  display: flex;
+}
+.beechwala-motivation{
+  font-family: "dhruv";
+  font-size: 40px;
+  margin-top: -2px;
+  border-color: rgba(29,29,27,.5);
+}
+.motivation-again{
+  font-family: "dhruv";
+  font-size: 40px;
+  border-color: rgba(29,29,27,.5);
+  padding-bottom: 40px;
+}
+.all-work{
+  border-style: solid;
+ border-width: 1px;
+ border-color: rgba(29,29,27,.5);
+ font-family: "canopee";
+ font-size: 90px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ padding-left: 50px;
+ padding-right: 50px;
+ display: inline;
+ border-radius: 50%;
+}
+.site-of-kuch-flex{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgba(29,29,27,.5);
+}
+.site-of-kuch{
+  font-family: dhruv;
+}
+.site-of-kuch-content{
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+.awards{
+  font-family: "canopee";
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+}
+.site-of-kuch-content-flex{
+  display: flex;
+}
+.number{
+  font-size: 180px;
+  margin-left: 10px;
+  margin-top: -55px;
+}
+.beech-ka-poora{
+  padding-bottom: 80px;
+}
+.kaam-ki-image-flex{
+  display: flex;
+}
+.kaam-ki-image{
+  width: 210px;
+  height: 350px;
+}
+.image-ke-bagal-me-the{
+  font-size: 495px;
+  margin-top: -83px;
+  font-family: "canopee";
+  letter-spacing: -25px;
+}
+.pixel{
+  font-size: 495px;
+  font-family: "canopee";
+  letter-spacing: -25px;
+  margin-top: -140px;
+}
+.award-ke-neeche-flex{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgba(29,29,27,.5);
+  
+}
+.ajeeb-aadmi{
+  width: 700px;
+  height: 730px;
+}
+.ajeeb-aadmi-ke-neeche{
+  display: flex;
+  margin-top: -80px;
+}
+.award-ki-image{
+  width: 400px;
+  height: 337px;
+}
+.perfect{
+  font-size: 475px;
+  font-family: "canopee";
+  letter-spacing: -25px;
+  margin-top: -110px;
+}
+.artisan-flex{
+  display: flex;
+  margin-top: -80px;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.artisan{
+  font-size: 400px;
+  font-family: canopee,sans-serif;
+  letter-spacing:-22px;
+  color:rgb(205, 198, 190);
+  background-color: black;
+  display: inline-block;
+  padding-right: 40px;
+  padding-left: 20px;
+  
+  border: 0;
+
+}
+.artisan-content{
+  font-family: dhruv;
+  font-size: 35px;
+  padding-left: 40px;
+}
+.AWWWARDS{
+  font-size: 130px;
+  font-family: "canopee";
+  letter-spacing: -10px;
+  padding-left: 40px;
+}
+.artisan-content2{
+  font-family: dhruv;
+  font-size: 35px;
+  padding-left: 40px;
+  width: 500px;
+}
+.last-flex{
+  display: flex;
+  justify-content:space-between; 
+  font-family: "canopee";
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgba(29,29,27,.5);
+  font-size: 20px;
+}
+.right-bottom{
+  display: flex;
+  padding-left: 900px;
+
+}
